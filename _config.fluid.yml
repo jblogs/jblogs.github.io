@@ -1,0 +1,39 @@
+navbar:
+  blog_title: Jayz的闲话空间
+  menu:
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
+    - { key: 'categories', link: '/categories/', icon: 'iconfont icon-tags-fill', name: '话题' }
+    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill', name: '热点' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '关于我' }
+
+
+
+
+
+index:
+  slogan:
+    enable: true
+    text: 人生到处知何似，应似飞鸿踏雪泥。泥上偶然留指爪，鸿飞那复计东西
+    api:
+      enable: true
+      url: "https://v1.hitokoto.cn/"
+      method: "GET"
+      headers: {}
+      keys: ["hitokoto"]
+  mathjax:
+   enable: true
+
+
+
+post:
+  mermaid:
+    enable: true
+    specific: true
+    options:
+  # math:
+  #   enable: true
+  #   specific: false
+  #   engine: mathjax
+
+mathjax:
+   enable: true
